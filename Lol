@@ -1,0 +1,129 @@
+local lib = require(game.ReplicatedStorage.Library)
+
+function change(fromPet, toPet)
+  for i,v in pairs(lib.Directory.Pets[fromPet]) do
+    lib.Directory.Pets[fromPet][i] = nil
+  end
+  for i,v in pairs(lib.Directory.Pets[toPet]) do
+    lib.Directory.Pets[fromPet][i] = v
+  end
+end
+
+change("Elephant", "Titanic Nightmare Cat")
+
+
+
+
+local lib = require(game.ReplicatedStorage.Library)
+
+function change(fromPet, toPet)
+  for i,v in pairs(lib.Directory.Pets[fromPet]) do
+    lib.Directory.Pets[fromPet][i] = nil
+  end
+  for i,v in pairs(lib.Directory.Pets[toPet]) do
+    lib.Directory.Pets[fromPet][i] = v
+  end
+end
+
+change("Parrot", "Titanic Blobfish")
+
+
+
+
+local lib = require(game.ReplicatedStorage.Library)
+
+function change(fromPet, toPet)
+  for i,v in pairs(lib.Directory.Pets[fromPet]) do
+    lib.Directory.Pets[fromPet][i] = nil
+  end
+  for i,v in pairs(lib.Directory.Pets[toPet]) do
+    lib.Directory.Pets[fromPet][i] = v
+  end
+end
+
+change("Monkey", "Huge Vampire Bat")
+
+
+
+
+
+local lib = require(game.ReplicatedStorage.Library)
+
+function change(fromPet, toPet)
+  for i,v in pairs(lib.Directory.Pets[fromPet]) do
+    lib.Directory.Pets[fromPet][i] = nil
+  end
+  for i,v in pairs(lib.Directory.Pets[toPet]) do
+    lib.Directory.Pets[fromPet][i] = v
+  end
+end
+
+change("Ducky", "Huge Lucki")
+
+
+
+
+
+local lib = require(game.ReplicatedStorage.Library)
+
+function change(fromPet, toPet)
+  for i,v in pairs(lib.Directory.Pets[fromPet]) do
+    lib.Directory.Pets[fromPet][i] = nil
+  end
+  for i,v in pairs(lib.Directory.Pets[toPet]) do
+    lib.Directory.Pets[fromPet][i] = v
+  end
+end
+
+change("Corgi", "Huge Storm Agony")
+
+
+
+
+local lib = require(game.ReplicatedStorage.Library)
+
+function change(fromPet, toPet)
+  for i,v in pairs(lib.Directory.Pets[fromPet]) do
+    lib.Directory.Pets[fromPet][i] = nil
+  end
+  for i,v in pairs(lib.Directory.Pets[toPet]) do
+    lib.Directory.Pets[fromPet][i] = v
+  end
+end
+
+change("Dalmatian", "Huge Pixel Cat")
+
+
+
+
+
+local lib = require(game.ReplicatedStorage.Library)
+
+function change(fromPet, toPet)
+  for i,v in pairs(lib.Directory.Pets[fromPet]) do
+    lib.Directory.Pets[fromPet][i] = nil
+  end
+  for i,v in pairs(lib.Directory.Pets[toPet]) do
+    lib.Directory.Pets[fromPet][i] = v
+  end
+end
+
+change("Cat", "Huge Floppa")
+
+
+
+
+
+
+local lib = require(game.ReplicatedStorage.Library)
+
+function change(fromPet, toPet)
+  for i,v in pairs(lib.Directory.Pets[fromPet]) do
+    lib.Directory.Pets[fromPet][i] = nil
+  end
+  for i,v in pairs(lib.Directory.Pets[toPet]) do
+    lib.Directory.Pets[fromPet][i] = v
+  end
+end
+
+change("Dog", "Huge Hell Rock")
